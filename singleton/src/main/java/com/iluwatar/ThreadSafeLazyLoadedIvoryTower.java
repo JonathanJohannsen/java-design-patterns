@@ -9,7 +9,7 @@ package com.iluwatar;
  */
 public class ThreadSafeLazyLoadedIvoryTower {
 
-	private static ThreadSafeLazyLoadedIvoryTower instance = null;
+	public static ThreadSafeLazyLoadedIvoryTower instance = null;
 	
 	private ThreadSafeLazyLoadedIvoryTower() {
 	}
