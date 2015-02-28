@@ -10,7 +10,7 @@ public class ElfMage extends Mage {
 
 	@Override
 	public Mage clone() throws CloneNotSupportedException {
-		return new ElfMage(this);
+		return new ElfMage();
 	}
 
 	@Override
